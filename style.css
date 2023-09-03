@@ -9,14 +9,15 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #background img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -46,4 +47,32 @@ body {
   border: none;
   border-radius: 15px;
   cursor: pointer;
+}
+
+.footerBox {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #7700ff21;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.178);
+}
+
+@media (min-width: 281px) {
+  #background img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 374px) {
+  #background img {
+    max-width: 100%;
+  }
+}
+@media (mix-width: 500px) {
+  #background img {
+    max-width: 100%;
+  }
 }
