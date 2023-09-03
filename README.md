@@ -6,6 +6,8 @@ This is a clone of the [Herta Kuru](https://github.com/duiqt/herta_kuru) reposit
 
 This project is a clone of the original [Herta Kuru](https://github.com/duiqt/herta_kuru) repository. It replicates the functionality and features of the original project. I was inspired to create this clone after coming across the project on a random user's Discord server. The goal of this clone is to explore and understand the codebase of the original project and potentially contribute to it in the future.
 
+![Kururu GIF](https://media.tenor.com/YSHdPP-LR1cAAAAi/star-rail-kuru.gif)
+
 ## How to Use
 
 To use this project, you can follow these steps:
